@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- header row -->
+    <div class="header">
+        <img id="madison" src="assets/madison_icon.png">
+    </div>
+
+    <!-- background info about website -->
+    <h2 class="sub-header">Welcome to UW-Madison's Course Info!</h2>
+    <div id="description-container">
+        <p>Providing insight on all courses and their availability at UW-Madison.</p>
+    </div>
+
+    <!-- course stats -->
+    <h2 class="sub-header">Stats</h2>
+    <div class="stats-container">
+        <div class="stats-card">
+            <h3>Number of Courses</h3>
+            <p id="num-courses"></p>
+        </div>
+        <div class="stats-card">
+            <h3>Total Enrolled</h3>
+            <p id="total-enrolled"></p>
+        </div>
+        <div class="stats-card">
+            <h3>Total Waitlisted</h3>
+            <p id="total-waitlisted"></p>
+        </div>
+    </div>
+    <div class="stats-container" id="top-courses">
+        <div class="stats-card" id="first-course">
+            <h3>Most signed up course</h3>
+        </div>
+        <div class="stats-card" id="second-course">
+            <h3>Second-most signed up course</h3>
+        </div>
+    </div>
+
+    <!-- list of courses at UW-Madison -->
+    <h2 class="sub-header">Courses 2025-2026</h2>
+    <div id="button-container">
+        <button id="open-btn">Open</button>
+        <button id="closed-btn">Closed</button>
+        <button id="bio-btn">Biological Sciences</button>
+        <button id="humanities-btn">Humanities</button>
+        <button id="literature-btn">Literature</button>
+        <button id="natural-btn">Natural Sciences</button>
+        <button id="physical-btn">Physical Sciences</button>
+        <button id="social-btn">Social Sciences</button>
+        <button id="comm-A-btn">Communications A</button>
+        <button id="comm-B-btn">Communications B</button>
+        <button id="quan-A-btn">Quantitative Reasoning A</button>
+        <button id="quan-B-btn">Quantitative Reasoning B</button>
+        <button id="ethnic-btn">Ethnic Studies</button>
+        <button id="all-btn">All</button>
+    </div>
+    <div id="num-displayed-container"></div>
+    <div id="courses-container"></div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

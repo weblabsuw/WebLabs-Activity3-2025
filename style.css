@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  	margin: 0px;
+  	padding: 0px;
+  	font-family: "Kanit", sans-serif;
+}
+body {
+	min-height: 100vh;
+	background-color: #dbd6d2;
+}
+h1 {
+	font-weight: 700;
+}
+h2 {
+	font-weight: 600;
+}
+h3 {
+	font-weight: 500;
+}
+h4 {
+	font-weight: 300;
+}
+h5 {
+	font-weight: 200;
+}
+h6 {
+	font-weight: 100;
+}
+p {
+	font-weight: 300;
+}
+
+.header {
+    display: flex;
+	background-color: rgb(188, 0, 0);
+	padding: 1px;
+	margin-left: -10px;
+}
+#madison {
+	width: 55px;
+}
+
+.sub-header, #description-container {
+    margin-left: 8px;
+}
+.stats-container {
+    display: flex;
+    align-items: center;
+}
+.stats-card {
+    background-color: rgb(195, 113, 113);
+    border-radius: 7px;
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+#num-courses, #total-enrolled, #total-waitlisted {
+    font-size: 50px;
+}
+
+#num-displayed-container {
+    text-align: center;
+}
+#courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.course-card {
+	background-color: #FFFFFF;
+    padding: 1%;
+    margin: 1%;
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.course-card:hover, .stats-card:hover {
+	cursor: pointer;
+    box-shadow: 0 0 30px rgba(218, 85, 85, 0.4);
+}
+
+#button-container {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#button-container button {
+	border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+}
+#button-container button:hover {
+    background-color: rgb(177, 177, 177);
+    cursor: pointer;
+}
