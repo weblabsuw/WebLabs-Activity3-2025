@@ -159,7 +159,7 @@ function filterAllCourses() {
 // make a new function to change the background color depending on the course's
 // availability
 
-// use your new function in the addCoursesToPage function from Challenge 2 to 
+// add your new function to the addCoursesToPage function from Challenge 2 to 
 // change the course cards' background colors
 
 // with your newfound knowledge, change the if statement in the 
