@@ -174,8 +174,8 @@ function filterAllCourses() {
 
 // grab both containers of the top 2 most signed up courses cards
 
-// sort the courses using a shallow copy of COURSES_JSON in descending order 
-// of the sum of enrolled and waitlisted students
+// sort the courses in descending order of the sum of enrolled and waitlisted 
+// students using a copy of COURSES_JSON
 
 // use destructuring and the spread operator to grab the first and second courses
 
